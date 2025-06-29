@@ -8,22 +8,30 @@ It enables users to scroll through a timeline of video clips and trim them inter
 
 ## ✨ Features
 
-- 🔹 Trimmable clip views with left/right draggable handles
-- 🔹 Smooth ripple-trim effect on both ends of the clip
-- 🔹 Real-time resizing with visual updates
-- 🔹 Scrollable timeline using `UIScrollView`
-- 🔹 Supports multiple clips side by side
-- 🔹 Auto-selection, snapping, and deselection handling
-- 🔹 Lightweight and UIKit-only – no external dependencies
+- 🔹 Trimmable clip views with left/right draggable handles  
+- 🔹 Smooth ripple-trim effect on both ends of the clip  
+- 🔹 Real-time resizing with visual updates  
+- 🔹 Scrollable timeline using `UIScrollView`  
+- 🔹 Supports multiple clips side by side  
+- 🔹 Auto-selection, snapping, and deselection handling  
+- 🔹 Lightweight and UIKit-only – no external dependencies  
+
+---
+
+## 📷 Preview
+
+| Trim Bar | Trimming Handles | Multiple Clips |
+|----------|------------------|----------------|
+| ![s1](s1.png) | ![s2](s2.png) | ![s3](s3.png) |
 
 ---
 
 ## 🧰 Technologies Used
 
-- `UIKit`
-- `AVFoundation`
-- Custom gesture recognizers (tap + pan)
-- Dynamic layout using manual `frame` updates
+- `UIKit`  
+- `AVFoundation`  
+- Custom gesture recognizers (tap + pan)  
+- Dynamic layout using manual `frame` updates  
 
 ---
 
@@ -31,24 +39,24 @@ It enables users to scroll through a timeline of video clips and trim them inter
 
 ### Components
 
-- `VideoClipViewHera`: Represents an individual clip with trim handles, a label, and a simulated mini timeline.
+- `VideoClipViewHera`: Represents an individual clip with trim handles, a label, and a simulated mini timeline.  
 - `ViewController`: Hosts a horizontally scrollable timeline and manages clip layout, interaction, and gesture logic.
 
 ### Interaction Flow
 
-- Tap to select a clip.
-- Drag left or right handle to trim that edge.
-- The clip view resizes in real time.
-- Other clips adjust dynamically ("ripple effect").
-- Scroll view content size updates automatically.
+- Tap to select a clip  
+- Drag left or right handle to trim that edge  
+- The clip view resizes in real time  
+- Other clips adjust dynamically ("ripple effect")  
+- Scroll view content size updates automatically  
 
 ---
 
 ## 📦 Getting Started
 
-1. Copy `VideoClipViewHera.swift` and `ViewController.swift` into your Xcode project.
-2. Add your own video assets or clip data if needed.
-3. Run the project and interact with the timeline UI.
+1. Copy `VideoClipViewHera.swift` and `ViewController.swift` into your Xcode project.  
+2. Add your own video assets or clip data if needed.  
+3. Run the project and interact with the timeline UI.  
 
 ---
 
